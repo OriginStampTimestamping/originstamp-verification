@@ -4,6 +4,9 @@ OriginStamp is a timestamp service that uses the Bitcoin Blockchain (and soon ot
 This publicly accessible tool will be used to verify the timestamps in the future to show that the process is reproducible and open.
 
 # Prerequisites
+- Node JS v.10.8.0 (https://nodejs.org/en/download/current/)
+- Angular CLI npm install android-cli -global
+
 
 # Getting started
 
