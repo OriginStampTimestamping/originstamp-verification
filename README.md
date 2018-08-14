@@ -39,7 +39,7 @@ In the past we have already developed two different methods to generate time sta
    1. **Seed File**. The format of the seed file looks like: `c5e1c9d2.. 8827dfd.. c7555fe.. `
      In order to determine the private key, you have to calculate the SHA-256 of the seed file content.
 
-       **private key**=SHA-256(seed)=SHA-256(`c5e1c9d2.. 8827dfd.. c7555fe..`)
+       **private key**=SHA-256(seed)=SHA-256( `c5e1c9d2.. 8827dfd.. c7555fe..` )
 
        For the calculaton, we can recommend [online tools](https://passwordsgenerator.net/sha256-hash-generator/), which allow the calculation in the browser without downloading any third party software.
 
@@ -58,8 +58,8 @@ In the past we have already developed two different methods to generate time sta
    ![Sample](https://groups.google.com/group/originstamp/attach/49fe6696c1f2d/merkle_tree_verification.png?part=0.1&authuser=0&view=1)
    
    
-   
-       For a more detailled explanation of the Merkle tree, we want to refer to [Wikipedia](https://en.wikipedia.org/wiki/Merkle_tree)
+   The top hash corresponds to the private key we embedded in the blockchain through a transaction.
+   For a more detailled explanation of the Merkle tree, we want to refer to [Wikipedia](https://en.wikipedia.org/wiki/Merkle_tree)
        
 
 4. **Determine the Bitcoin address**. Having determined the private key in the previous step, we can use this private key for a new Bitcoin address. The detailled steps to calculate the uncompressed Bitcoin address can be found [here](https://gobittest.appspot.com/Address).
