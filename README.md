@@ -67,7 +67,7 @@ In the past we have already developed two different methods to generate time sta
        
         Hash CD = SHA-256(Hash C + Hash D) = SHA-256(a8eb9f308b08397df77443697de4959c156fd4c68c489995163285dbd3eedaefab95adaee8eb02219d556082a7f4fb70d19b8000097848112eb85b1d2fca8f67) = 47e47c96302eeba62ed443dd0c89b3411bbddd2c1ff6bdfb1f833fa11e060b85
 	
-	This step is performed for all levels of the tree until the hash of the root has been calculated. If the hash of the root is identical as proof, it is conforming and verified. The top hash corresponds to the private key we embedded in the blockchain through a transaction. For a more detailled explanation of the Merkle tree, we want to refer to [Wikipedia](https://en.wikipedia.org/wiki/Merkle_tree)
+This step is performed for all levels of the tree until the hash of the root has been calculated. If the hash of the root is identical as proof, it is conforming and verified. The top hash corresponds to the private key we embedded in the blockchain through a transaction. For a more detailled explanation of the Merkle tree, we want to refer to [Wikipedia](https://en.wikipedia.org/wiki/Merkle_tree)
        
 
 4. **Determine the Bitcoin address**. Having determined the private key in the previous step, we can use this private key for a new Bitcoin address. The detailled steps to calculate the uncompressed Bitcoin address can be found [here](https://gobittest.appspot.com/Address).
