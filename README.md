@@ -35,11 +35,11 @@ In the past we have already developed two different methods to generate time sta
    1. **Seed File**. The format of the seed file looks like: `c5e1c9d2.. 8827dfd.. c7555fe.. `
      In order to determine the private key, you have to calculate the SHA-256 of the seed file content.
 
-     **private key**=SHA-256(seed)=SHA-256(`c5e1c9d2.. 8827dfd.. c7555fe..`)
+       **private key**=SHA-256(seed)=SHA-256(`c5e1c9d2.. 8827dfd.. c7555fe..`)
 
-For the calculaton, we can recommend [online tools](https://passwordsgenerator.net/sha256-hash-generator/), which allow the calculation in the browser without downloading any third party software.
+       For the calculaton, we can recommend [online tools](https://passwordsgenerator.net/sha256-hash-generator/), which allow the calculation in the browser without downloading any third party software.
 
-   2. **Merkle Tree File**
+   2. **Merkle Tree File**. 
 For a more detailled explanation of the Merkle tree, we want to refer to [Wikipedia](https://en.wikipedia.org/wiki/Merkle_tree)
 
 ## Contributors
