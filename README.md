@@ -54,4 +54,4 @@ For a more detailled explanation of the Merkle tree, we want to refer to [Wikipe
 ## Contributors
 If you want to contribute something, then send us your pull request with your desired changes!
 
-Thomas Hepp
+* [Thomas Hepp](https://www.linkedin.com/in/thomas-hepp-b5aab7121/)
