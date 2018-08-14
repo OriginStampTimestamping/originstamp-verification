@@ -43,8 +43,11 @@ In the past we have already developed two different methods to generate time sta
 
        For the calculaton, we can recommend [online tools](https://passwordsgenerator.net/sha256-hash-generator/), which allow the calculation in the browser without downloading any third party software.
 
-   2. **Merkle Tree File**. 
-For a more detailled explanation of the Merkle tree, we want to refer to [Wikipedia](https://en.wikipedia.org/wiki/Merkle_tree)
+   2. **Merkle Tree File**. The merkle tree is a tree structure, that allows to organize the seed more efficient than a plain-text seed file. ![Sample](https://user-images.githubusercontent.com/23168323/44088138-55a65ae4-9fc2-11e8-8b2a-8b07663224a2.png)
+   
+       For a more detailled explanation of the Merkle tree, we want to refer to [Wikipedia](https://en.wikipedia.org/wiki/Merkle_tree)
+
+
 
 4. **Determine the Bitcoin address**. Having determined the private key in the previous step, we can use this private key for a new Bitcoin address. The detailled steps to calculate the uncompressed Bitcoin address can be found [here](https://gobittest.appspot.com/Address).
 
