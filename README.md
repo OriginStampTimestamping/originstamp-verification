@@ -35,7 +35,14 @@ In the past we have already developed two different methods to generate time sta
 ⋅⋅a. **Seed File**
 The format of the seed file looks like:
 
-`c5e1c9d28827dfdf7fc75556663da8509d36a880ea8e188536fc902c9fd9835a d9cfe7b4c0c76a85593af093753251b78507db3bfda1dea938d00eb5c61b44e7 `
+`c5e1c9d2.. 8827dfd.. c7555fe.. `
+
+In order to determine the private key, you have to calculate the SHA-256 of the seed file content.
+
+**private key**=SHA-256(seed)=SHA-256(`c5e1c9d2.. 8827dfd.. c7555fe..`)
+
+For the calculaton, we can recommend [online tools](https://passwordsgenerator.net/sha256-hash-generator/), which allow the calculation in the browser without downloading any third party software.
+
 ⋅⋅b. **Merkle Tree File**
 For a more detailled explanation of the Merkle tree, we want to refer to [Wikipedia](https://en.wikipedia.org/wiki/Merkle_tree)
 
