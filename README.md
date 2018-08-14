@@ -16,7 +16,11 @@ After installing node js, you might have to restart your computer.
 
 ## Running the application
 
+`ng serve`
+
 ## Building the application
+
+`node --max-old-space-size=8192 ./node_modules/@angular/cli/bin/ng build --prod --aot`
 
 # How to manually verify a timestamp?
 To verify a timestamp independently of OriginStamp, you need the following information:
@@ -41,6 +45,9 @@ In the past we have already developed two different methods to generate time sta
 
    2. **Merkle Tree File**. 
 For a more detailled explanation of the Merkle tree, we want to refer to [Wikipedia](https://en.wikipedia.org/wiki/Merkle_tree)
+
+4. **Determine the Bitcoin address**. Having determined the private key in the previous step, we can use this private key for a new Bitcoin address.
+
 
 ## Contributors
 If you want to contribute something, then send us your pull request with your desired changes!
