@@ -44,7 +44,9 @@ In the past we have already developed two different methods to generate time sta
        For the calculaton, we can recommend [online tools](https://passwordsgenerator.net/sha256-hash-generator/), which allow the calculation in the browser without downloading any third party software.
 
    2. **Merkle Tree File**. The merkle tree is a tree structure, that allows to organize the seed more efficient than a plain-text seed file. 
-   The merkle tree proof looks like: `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+   The merkle tree proof looks like:
+   
+   `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <node value="4eac8a92f8846ea801669b5834aa733e5345cc5e90875152ea6b9f38c724701e" type="key">
 	<left value="d6b3978d4e419a8adda17ae12ff1c706334bac52b3f7f976083ceb64e46b0604" type="mesh"/>
 	<right value="77f0c81a31788a9ec4f141cc5b5443fbcfc76aece2edcc9e884e4b1b47230826" type="mesh">
