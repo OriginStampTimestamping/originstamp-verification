@@ -45,7 +45,6 @@ In the past we have already developed two different methods to generate time sta
 
    2. **Merkle Tree File**. The merkle tree is a tree structure, that allows to organize the seed more efficient than a plain-text seed file. 
    The merkle tree proof looks like:
-   
    `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <node value="4eac8a92f8846ea801669b5834aa733e5345cc5e90875152ea6b9f38c724701e" type="key">
 	<left value="d6b3978d4e419a8adda17ae12ff1c706334bac52b3f7f976083ceb64e46b0604" type="mesh"/>
