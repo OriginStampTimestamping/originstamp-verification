@@ -52,8 +52,8 @@ In the past we have already developed two different methods to generate time sta
 	    <left value="d6b3978d4e419a8adda17ae12ff1c706334bac52b3f7f976083ceb64e46b0604" type="mesh"/>
 	    <right value="77f0c81a31788a9ec4f141cc5b5443fbcfc76aece2edcc9e884e4b1b47230826" type="mesh">
 		<left value="47e47c96302eeba62ed443dd0c89b3411bbddd2c1ff6bdfb1f833fa11e060b85" type="mesh">
-		  <left value="a8eb9f308b08397df77443697de4959c156fd4c68c489995163285dbd3eedaef" type="mesh"/>
-		  <right value="ab95adaee8eb02219d556082a7f4fb70d19b8000097848112eb85b1d2fca8f67" type="hash"/>
+		    <left value="a8eb9f308b08397df77443697de4959c156fd4c68c489995163285dbd3eedaef" type="mesh"/>
+		    <right value="ab95adaee8eb02219d556082a7f4fb70d19b8000097848112eb85b1d2fca8f67" type="hash"/>
 		</left>
 		<right value="da764431f596d02c72aeabcc1daa23caad0352e72a51776ebe76ecf51979d507" type="mesh"/></right>
 	</node>
@@ -63,7 +63,7 @@ In the past we have already developed two different methods to generate time sta
 For demonstration purposes, we use a more simplified illustration.
 ![Sample](https://groups.google.com/group/originstamp/attach/49fe6696c1f2d/merkle_tree_verification.png?part=0.1&authuser=0&view=1)
    
-   	For the verification, we start on the lowest level of the tree.
+   For the verification, we start on the lowest level of the tree.
    	
         Lets assume:
        
