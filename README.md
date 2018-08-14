@@ -46,7 +46,9 @@ In the past we have already developed two different methods to generate time sta
    2. **Merkle Tree File**. 
 For a more detailled explanation of the Merkle tree, we want to refer to [Wikipedia](https://en.wikipedia.org/wiki/Merkle_tree)
 
-4. **Determine the Bitcoin address**. Having determined the private key in the previous step, we can use this private key for a new Bitcoin address.
+4. **Determine the Bitcoin address**. Having determined the private key in the previous step, we can use this private key for a new Bitcoin address. The detailled steps to calculate the uncompressed Bitcoin address can be found [here](https://gobittest.appspot.com/Address).
+
+5. **Check the transactions**. By using a blockexplorer, such as [blockchain.info](https://blockchain.info), you can search for the previously calculated Bitcoin address. The first transaction for this address testifies to the proof of existence. **The timestamp of the file corresponds to the block time of the first transaction.**
 
 
 ## Contributors
