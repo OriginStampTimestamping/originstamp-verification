@@ -86,3 +86,4 @@ This step is performed for all levels of the tree until the hash of the root has
 If you want to contribute something, then send us your pull request with your desired changes!
 
 * [Thomas Hepp](https://www.linkedin.com/in/thomas-hepp-b5aab7121/)
+* [philonor](https://github.com/philonor)
