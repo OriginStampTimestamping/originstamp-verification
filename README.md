@@ -3,26 +3,8 @@ OriginStamp is a timestamp service that uses the Bitcoin Blockchain (and soon ot
 
 This publicly accessible tool will be used to verify the timestamps in the future to show that the process is reproducible and open.
 
-# Prerequisites
-- [Node JS v.10.8.0](https://nodejs.org/en/download/current/)
-After installing node js, you might have to restart your computer.
+## How to manually verify a timestamp?
 
-- Angular CLI 
-
-`npm install -g @angular/cli`
-
-
-# Getting started
-
-## Running the application
-
-`ng serve`
-
-## Building the application
-
-`node --max-old-space-size=8192 ./node_modules/@angular/cli/bin/ng build --prod --aot`
-
-# How to manually verify a timestamp?
 To verify a timestamp independently of OriginStamp, you need the following information:
 - the unchanged original file
 - the proof provided by [OriginStamp](https://originstamp.com)
@@ -80,8 +62,8 @@ This step is performed for all levels of the tree until the hash of the root has
 
 5. **Check the transactions**. By using a blockexplorer, such as [blockchain.info](https://blockchain.info), you can search for the previously calculated Bitcoin address: [`1CV9tyNSdzrKFC2gtpx3Y5GU9rPWb81R4T`](https://www.blockchain.com/de/btc/address/1CV9tyNSdzrKFC2gtpx3Y5GU9rPWb81R4T). The first transaction for this address testifies to the proof of existence. **The timestamp of the file corresponds to the block time of the [first transaction](https://www.blockchain.com/de/btc/tx/a640ae32a1183bc1371afb766ac9b43525dd4ad3f1d3597cd736d10b533dfec7).**
 
-
 ## Contributors
+
 If you want to contribute something, then send us your pull request with your desired changes!
 
 * [Thomas Hepp](https://www.linkedin.com/in/thomas-hepp-b5aab7121/)
