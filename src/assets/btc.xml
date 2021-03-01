@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node type="key" value="17937d802323a245d10447347c29f4d7b40341875474f4df2e28d7eb8d35e231">
+    <left type="mesh" value="76360e8c15a81f3e2d93b5cfac0c3d14ae3215d884bc15da4b68a59438d6fd7d">
+        <left type="mesh" value="9738797677dd064a1e6e183c0d53da4316974bb6070f98e0ae4a1953d7bf8733">
+            <left type="mesh" value="fd1fbf499f62ba2a95ba7a8935521ce721e0717fde3e797a10f2418cc3ef1a93"/>
+            <right type="mesh" value="c62812315ecaf0c80a4091cf4d977cdd6d37842b71bf1fc6ff30f07edf2c286f">
+                <left type="mesh" value="55ad8a8cf9b616ab381dc23e95495a56f70df91cb0ea3d2fb3b4d3bd67fbd3aa"/>
+                <right type="mesh" value="d03f1ce33c28e0eb22fdf16e221616a217862112fb9f6427ef58c07994084833">
+                    <left type="mesh" value="119d57f102622d4360de3c98b4c773e2c5fe9019580955bb564962c2d5d9b54f"/>
+                    <right type="mesh" value="e4c14fd9ec8b96e3930bd0780f3ffa59ef7373087cf44944ab2ca22e18e696c8">
+                        <left type="mesh" value="3fc4b1abc81824361172173a0e97485cb2c8f5b8c311ecfa94b84d6ae631b387"/>
+                        <right type="mesh" value="ea5f2215fd7620ab0003ecd2ad26fd3465f897c6d1631a8deccf03e4a27632d4">
+                            <left type="mesh" value="fa482f738c4cc270a89c03f54aad46cf7a0589275ba7e38ea72ae3e49db502ab"/>
+                            <right type="mesh" value="9d990390e43a31ce66e73dd261f09843970bf9a85a32da9cd78e8da7aab6ee15">
+                                <left type="mesh" value="f2a4efbee2bd0ebfd45618e5fea8bc58a0247fba846276c753552e6006df2385"/>
+                                <right type="mesh" value="c8ae503b530678700ea4898fd531e47e34b410de8fcb417a9f7975539141e466">
+                                    <left type="mesh" value="98db8fca18bc982247186800f280d03c8c354206bcd39ba88dbcc4c9e51d0ba6"/>
+                                    <right type="mesh" value="e9b2322cb5fef367cdffae1b51114649019a650c194068e18b82ea355d40459f">
+                                        <left type="mesh" value="1813a78290615532c0afba92d7e457f89191ba633ce9199c6c6c5ce105033e2e"/>
+                                        <right type="mesh" value="78524a4e58ad0940d6aeb4e43c8be14de831219b0e5a2a49ba8f4621c12aaa32">
+                                            <left type="mesh" value="8d6c40121864c8c662473c0018fff7470313820ffb88440dd0d4399d80955349"/>
+                                            <right type="mesh" value="3b62dda21fb540cfa5daee4e64d2b3078c162f142df2ab58c7ae05bf36decb57">
+                                                <left type="mesh" value="831c60535ec413ac447fd7c539621f0f4ecc3dc922895cfd20344d423715a698">
+                                                    <left type="mesh" value="9286cf28ed6b32777e2a5dcd600b49600b8f2070cb9b9c246c7f2da7f855f1a7">
+                                                        <left type="mesh" value="b88bfd3591ba76f7dd8621ca10dd6bb5b7077c76ffc14e9685e6fa2006e34b82"/>
+                                                        <right type="mesh" value="2dd784ca42f21e1ad3868b9eba5d220dce8aa9637d6a463ad0d2c5d3936cfcfa">
+                                                            <left type="mesh" value="792172a8eefa5a408f14cae48f6199426f704971f03fb5666b58e8ec96c560c7"/>
+                                                            <right type="hash" value="792efb2164481dd23a7f2a566d486448cbfe4154238b5f6cfbc1380166d0457e"/>
+                                                        </right>
+                                                    </left>
+                                                    <right type="mesh" value="065b00c10e57752568a09b6fc7ab8ef0edb75f83a8cd72459e488b116bd3b9e4"/>
+                                                </left>
+                                                <right type="mesh" value="b2c06afc8127fa55a0b88dd56026b29cb9eecb07395b74079886a12a5a1d6ed6"/>
+                                            </right>
+                                        </right>
+                                    </right>
+                                </right>
+                            </right>
+                        </right>
+                    </right>
+                </right>
+            </right>
+        </left>
+        <right type="mesh" value="c3c8816b76d4ba417759b90730dcf84910c1601d1aec79967a507d5674addd1c"/>
+    </left>
+    <right type="mesh" value="941639c6c535dc130df46a6a2ce4a5a065d69bef6f44ec7143e45d2051c3608c"/>
+</node>

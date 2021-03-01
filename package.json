@@ -1,0 +1,23 @@
+{
+  "name": "originstamp-verification",
+  "version": "0.0.1",
+  "description": "Helps to verify timestamps given their OriginStamp merkle tree proof",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OriginStampTimestamping/originstamp-verification.git"
+  },
+  "author": "mail@originstamp.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OriginStampTimestamping/originstamp-verification/issues"
+  },
+  "homepage": "https://github.com/OriginStampTimestamping/originstamp-verification#readme",
+  "dependencies": {
+    "elementtree": "^0.1.7",
+    "xml-js": "^1.6.11"
+  }
+}

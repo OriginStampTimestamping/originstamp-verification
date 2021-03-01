@@ -1,0 +1,61 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+
+
+body { background: #fff; }
+
+
+
+
+
+div#loader {
+    padding: 10px;
+}
+textarea#xml {
+    display: none;
+}
+#loader.active textarea {
+    width: 100%;
+    display: block;
+    height: 300px;
+}
+#loader #start-load {
+    display: inline-block;
+}
+#loader #load-tree {
+    display: none;
+}
+#loader.active #start-load {
+    display: none;
+}
+#loader.active #load-tree {
+    display: inline-block;
+}
+
+
+textarea#xml {
+    width:100%; height: 1px;
+}
+
+
+
+div#content {
+    position: relative;
+    overflow: auto;
+    height: 100%;
+}
+.chart {width: 100%; display: inline-block; min-height: 600px; border: 1px solid lime;}
+#steps {
+    z-index: 9999;
+    position: fixed;
+    background: red;
+    border: 3px solid lime;
+    min-width: 200px;
+    min-height: 200px;
+    top: 0;
+    right: 0;
+}
+.node { color: #9CB5ED; border: 2px solid #C8C8C8; border-radius: 3px; }
+.node p { font-size: 10px;  }
+
+
+.node.highlighted {border: 5px solid lime; color: lime;}
